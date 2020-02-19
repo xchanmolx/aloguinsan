@@ -1,0 +1,11 @@
+﻿@page "/normal"
+
+@attribute [Authorize(Roles = "Admin, Normal")]
+
+<h3>Normal Component</h3>
+
+<p>This page is only accessible to users with 'Admin' or 'Normal' roles</p>
+
+@code {
+
+}

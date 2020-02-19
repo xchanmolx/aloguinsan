@@ -1,0 +1,11 @@
+﻿@page "/admin"
+
+@attribute [Authorize(Roles = "Admin")]
+
+<h3>Admin Component</h3>
+
+<p>This page is only accessible to users with 'Admin' roles</p>
+
+@code {
+
+}
